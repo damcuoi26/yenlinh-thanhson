@@ -40,7 +40,7 @@
     var dataWishes = [];
 </script>
 
-<body id="home">
+<body onclick="playMusic()" style="cursor: pointer;" id="home">
     <div class="page-wrapper">
         <div class="preloader">
             <div class="middle">
@@ -459,6 +459,10 @@
             </li>
 
         </ul>
+        <audio id="bgMusic" loop>
+            <source src="NgayDauTien.mp3" type="audio/mpeg">
+            Trình duyệt của bạn không hỗ trợ âm thanh.
+          </audio> 
     </div>
 
     <script type="text/javascript">
@@ -484,6 +488,15 @@
         }   
         let biicore = parseJsonRecursively('{"template_id":"6174ee15b129456cb25a0566","templatePremium":false,"themeRoot":"https:\/\/thanhson-yenlinh.iwedding.info\/templates\/template4","webroot":"https:\/\/thanhson-yenlinh.iwedding.info","coreSite":"https:\/\/biihappy.com","webToken":"67fd1ee66673b6a531019385","isPremium":false,"bgMusic":"https:\/\/cdn.biihappy.com\/ziiweb\/wedding-musics\/BeautifulInWhite-ShaneFilan-524801.mp3","alert":"[]","effect":"{\\\"type\\\":\\\"heart\\\"}","logo":"https:\/\/iwedding.info\/common\/imgs\/bii.png?v=20210131","url_landing_page":"https:\/\/biihappy.com\/iwedding","isAutoPlay":false,"footer_title":"iWedding | N\u1ec1n t\u1ea3ng t\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed t\u1eeb Biihappy","footer_title_mobile":"T\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed"}');
     </script>
+    <script>
+        let played = false;
+        function playMusic() {
+          if (!played) {
+            document.getElementById('bgMusic').play();
+            played = true;
+          }
+        }
+      </script>
     <script
         src="https://thanhson-yenlinh.iwedding.info/templates/template4/js/jquery-plugin-collection.js?v=20250312"></script>
     <script src="https://thanhson-yenlinh.iwedding.info/templates/template4/js/script.js?v=20250312"></script>
