@@ -32,34 +32,36 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K9L0ZFE1PJ"></script>
     <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-K9L0ZFE1PJ');</script>
     <style>
-        .bii-footer{
+        .bii-footer {
             display: none !important;
         }
     </style>
-      <style>
+    <style>
         .heart {
-          position: fixed;
-          top: -10px;
-          width: 20px;
-          height: 20px;
-          background-image: url('https://cdn-icons-png.flaticon.com/512/833/833472.png');
-          background-size: cover;
-          pointer-events: none;
-          z-index: 9999;
-          animation: fall linear infinite;
+            position: fixed;
+            top: -10px;
+            width: 20px;
+            height: 20px;
+            background-image: url('https://cdn-icons-png.flaticon.com/512/833/833472.png');
+            background-size: cover;
+            pointer-events: none;
+            z-index: 9999;
+            animation: fall linear infinite;
         }
+
         @keyframes fall {
-          0% {
-            transform: translateY(0) rotate(0);
-            opacity: 1;
-          }
-          100% {
-            transform: translateY(100vh) rotate(360deg);
-            opacity: 0;
-          }
+            0% {
+                transform: translateY(0) rotate(0);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
         }
-      </style>
-    
+    </style>
+
 </head>
 <script type="text/javascript">
     var photoGalleries = [];
@@ -236,28 +238,33 @@
                                     <div style="display: flex; justify-content: space-around; margin-bottom: 20px;">
                                         <div style="width: 50%; margin: 10px 0;">
                                             <div style="margin-bottom: 5px;">ÔNG: <b>NGUYỄN VĂN TRUYÊN</b></div>
-                                            <div >BÀ: <b>TRẦN THỊ PHƯỢNG</b></div>
-                                            <div style="margin-left: 1%; margin-top: 5px;">Ấp Cái Già, X.Hiệp Mỹ Đông, H.Cầu Ngang, T.Trà Vinh</b></div>
+                                            <div>BÀ: <b>TRẦN THỊ PHƯỢNG</b></div>
+                                            <div style="margin-left: 1%; margin-top: 5px;">Ấp Cái Già, X.Hiệp Mỹ Đông,
+                                                H.Cầu Ngang, T.Trà Vinh</b></div>
                                         </div>
                                         <div style="width: 50%; margin: 10px 0;">
                                             <div style="margin-bottom: 5px;">Ông: <b>LÊ VĂN NÚI</b></div>
                                             <div>BÀ: <b>NGUYỄN THỊ LINH</b></div>
-                                            <div style="margin-left: 1%; margin-top: 5px;">Ấp Nhị Hòa, X.Đa Phước, H.Càng Long, T.Trà Vinh</b></div>
+                                            <div style="margin-left: 1%; margin-top: 5px;">Ấp Nhị Hòa, X.Đa Phước,
+                                                H.Càng Long, T.Trà Vinh</b></div>
                                         </div>
                                     </div>
                                     <div style="font-size: 23px;">Trân trọng báo tin lễ <b>Vu Quy</b></div>
                                     <div style="display: flex; justify-content: space-around;">
                                         <div style="width: 50%; margin: 10px 0;">
                                             <div style="margin-bottom: 10px;">Trưởng Nữ</div>
-                                            <div style="font-family: 'Great Vibes'; font-size: 23px; color: red;">Nguyễn Thị Yến Linh</div>
+                                            <div style="font-family: 'Great Vibes'; font-size: 23px; color: red;">Nguyễn
+                                                Thị Yến Linh</div>
                                         </div>
                                         <div style="width: 50%; margin: 10px 0;">
                                             <div style="margin-bottom: 10px;">Quý Nam</div>
-                                            <div style="font-size: 23px; font-family: 'Great Vibes'; color: red;">Lê Thanh Sơn</div>
+                                            <div style="font-size: 23px; font-family: 'Great Vibes'; color: red;">Lê
+                                                Thanh Sơn</div>
                                         </div>
                                     </div>
-                                    <div style="display: flex; justify-content: space-around; margin-top: 10px; margin-bottom: 5px;">
-                                    Buổi tiệc được tổ chức:
+                                    <div
+                                        style="display: flex; justify-content: space-around; margin-top: 10px; margin-bottom: 5px;">
+                                        Buổi tiệc được tổ chức:
                                     </div>
                                     <ul>
                                         <li><i class="ti-time"></i>15:00 30/04/2025</li>
@@ -483,10 +490,25 @@
                     d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
             </svg>
         </div>
-            <audio id="bgMusic" loop>
+        <ul class="p-0 m-0 list-menu-icon">
+            <li class="text-center">
+              <a onclick="playMusic()" class="text-white d-flex justify-content-center align-items-center">
+                <span class="content-button tooltipBtn" style="display: flex; justify-content: center; align-items: center;">
+                  <span class="tooltiptext">Phát nhạc</span>
+                  <img
+                    class="access-icon"
+                    src="https://cdn-icons-png.flaticon.com/512/727/727269.png"
+                    alt="Nốt nhạc trắng"
+                    style="width: 25px; height: 25px; filter: brightness(0) invert(1);"
+                  />
+                </span>
+              </a>
+            </li>
+          </ul>
+        <audio id="bgMusic" loop>
             <source src="NgayDauTien.mp3" type="audio/mpeg">
             Trình duyệt của bạn không hỗ trợ âm thanh.
-          </audio>        
+        </audio>
     </div>
 
     <script type="text/javascript">
@@ -509,33 +531,33 @@
                 }
             });
             return parsed;
-        }   
+        }
         let biicore = parseJsonRecursively('{"template_id":"6174ee15b129456cb25a0566","templatePremium":false,"themeRoot":"https:\/\/thanhson-yenlinh.iwedding.info\/templates\/template4","webroot":"https:\/\/thanhson-yenlinh.iwedding.info","coreSite":"https:\/\/biihappy.com","webToken":"67fd1ee66673b6a531019385","isPremium":false,"bgMusic":"https:\/\/cdn.biihappy.com\/ziiweb\/wedding-musics\/BeautifulInWhite-ShaneFilan-524801.mp3","alert":"[]","effect":"{\\\"type\\\":\\\"heart\\\"}","logo":"https:\/\/iwedding.info\/common\/imgs\/bii.png?v=20210131","url_landing_page":"https:\/\/biihappy.com\/iwedding","isAutoPlay":false,"footer_title":"iWedding | N\u1ec1n t\u1ea3ng t\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed t\u1eeb Biihappy","footer_title_mobile":"T\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed"}');
     </script>
     <script>
         let played = false;
         function playMusic() {
-          if (!played) {
-            document.getElementById('bgMusic').play();
-            played = true;
-          }
-        }
-      </script>
-        <script>
-            function createHeart() {
-              const heart = document.createElement('div');
-              heart.classList.add('heart');
-              heart.style.left = Math.random() * 100 + 'vw';
-              heart.style.animationDuration = (2 + Math.random() * 3) + 's';
-              document.body.appendChild(heart);
-        
-              setTimeout(() => {
-                heart.remove();
-              }, 5000);
+            if (!played) {
+                document.getElementById('bgMusic').play();
+                played = true;
             }
-            setInterval(createHeart, 300);
-          </script>
-        
+        }
+    </script>
+    <script>
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (2 + Math.random() * 3) + 's';
+            document.body.appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 5000);
+        }
+        setInterval(createHeart, 300);
+    </script>
+
     <script
         src="https://thanhson-yenlinh.iwedding.info/templates/template4/js/jquery-plugin-collection.js?v=20250312"></script>
     <script src="https://thanhson-yenlinh.iwedding.info/templates/template4/js/script.js?v=20250312"></script>
