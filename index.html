@@ -235,14 +235,14 @@
                                     </div>
                                     <div style="display: flex; justify-content: space-around; margin-bottom: 20px;">
                                         <div style="width: 50%; margin: 10px 0;">
-                                            <div style="margin-left: 1%; margin-bottom: 5px;">ÔNG: <b>NGUYỄN VĂN TRUYÊN</b></div>
-                                            <div style="margin-left: 1%;">BÀ: <b>TRẦN THỊ PHƯỢNG</b></div>
-                                            <div style="margin-left: 1%;">Ấp Cái Già, X.Hiệp Mỹ Đông, H.Cầu Ngang, T.Trà Vinh</b></div>
+                                            <div style="margin-bottom: 5px;">ÔNG: <b>NGUYỄN VĂN TRUYÊN</b></div>
+                                            <div >BÀ: <b>TRẦN THỊ PHƯỢNG</b></div>
+                                            <div style="margin-left: 1%; margin-top: 5px;">Ấp Cái Già, X.Hiệp Mỹ Đông, H.Cầu Ngang, T.Trà Vinh</b></div>
                                         </div>
                                         <div style="width: 50%; margin: 10px 0;">
-                                            <div style="margin-left: 1%; margin-bottom: 5px;">Ông: <b>LÊ VĂN NÚI</b></div>
-                                            <div style="margin-left: 1%;">BÀ: <b>NGUYỄN THỊ LINH</b></div>
-                                            <div style="margin-left: 1%;">Ấp Nhị Hòa, X.Đa Phước, H.Càng Long, T.Trà Vinh</b></div>
+                                            <div style="margin-bottom: 5px;">Ông: <b>LÊ VĂN NÚI</b></div>
+                                            <div>BÀ: <b>NGUYỄN THỊ LINH</b></div>
+                                            <div style="margin-left: 1%; margin-top: 5px;">Ấp Nhị Hòa, X.Đa Phước, H.Càng Long, T.Trà Vinh</b></div>
                                         </div>
                                     </div>
                                     <div style="font-size: 23px;">Trân trọng báo tin lễ <b>Vu Quy</b></div>
@@ -469,34 +469,21 @@
     </div>
 
     <div id="menu-access" class="">
-        <div class="btn-menu-open">
+        <div onclick="playMusic()" class="btn-menu-open">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
                 viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
             </svg>
         </div>
-        <div class="btn-menu-close">
+        <div onclick="playMusic()" class="btn-menu-close">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
                 viewBox="0 0 16 16">
                 <path
                     d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
             </svg>
         </div>
-        <ul class="p-0 m-0 list-menu-icon">
-
-            <li class="text-center">
-                <a href="https://thanhson-yenlinh.iwedding.info/rsvp" target="_blank" class="text-white">
-                    <span class="content-button tooltipBtn">
-                        <span class="tooltiptext">Xác nhận tham dự</span>
-                        <img class="access-icon" src="https://cdn.biihappy.com/ziiweb/images/static/common/rsvp4.png"
-                            alt="">
-                    </span>
-                </a>
-            </li>
-
-        </ul>
-        <audio id="bgMusic" loop>
+            <audio id="bgMusic" loop>
             <source src="NgayDauTien.mp3" type="audio/mpeg">
             Trình duyệt của bạn không hỗ trợ âm thanh.
           </audio>        
